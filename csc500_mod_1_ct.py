@@ -33,7 +33,7 @@ while True:
 
 if prompt == 1:
     addition, subtraction = add_subtract(num_1 ,num_2)
-    print(f'{num_1} + {num_2} = {addition}; {num_2} - {num_1} = {subtraction}')
+    print(f'{num_1} + {num_2} = {addition}; {num_1} - {num_2} = {subtraction}')
 else:
     multiplication, division = multiply_divide(num_1, num_2)
     print(f'{num_1} * {num_2} = {multiplication}; {num_1}/{num_2} = {division}')
